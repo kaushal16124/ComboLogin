@@ -1,0 +1,115 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFECB3">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFECD3">
+
+
+        <TextView
+            android:text="SIGN-UP FORM"
+            android:fontFamily="sans-serif-smallcaps"
+            android:background="#00FFFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp"
+            android:textSize="20sp"
+            android:textAlignment="center">
+
+        </TextView>
+
+        <TextView
+            android:text=""
+            android:background="#FFECD3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp"
+            android:textSize="20sp"
+            android:textAlignment="center">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/sname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingBottom="16dp"
+            android:hint="Full Name" />
+
+
+        <EditText
+            android:id="@+id/semail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingBottom="16dp"
+            android:hint="Email ID" />
+
+
+
+
+        <EditText
+            android:id="@+id/suname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingBottom="16dp"
+            android:hint="Username" />
+
+
+
+        <EditText
+            android:id="@+id/spass"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingBottom="16dp"
+            android:hint="Password" />
+
+
+        <EditText
+            android:id="@+id/scpass"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingBottom="16dp"
+            android:hint="Confirm Password" />
+
+        <TextView
+            android:text=""
+            android:background="#FFECD3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp"
+            android:textSize="20sp"
+            android:textAlignment="center">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/create"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="account"
+            android:paddingLeft="16dp"
+            android:text="CREATE AN ACCOUNT"
+            android:textSize="15sp"></Button>
+
+    </LinearLayout>
+
+</ScrollView>

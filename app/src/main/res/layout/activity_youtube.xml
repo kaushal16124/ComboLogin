@@ -1,0 +1,234 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFECB3">
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFECB3">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="YOUTUBE CHANNELS"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:background="#18FFFF"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#FFECB3">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                android:src="@drawable/aib"/>
+            <Button
+                android:text="A I B"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:paddingLeft="16dp"
+                android:paddingTop="16dp"
+                android:textSize="20sp"
+                android:textColor="#424242"
+                android:onClick="aib">
+            </Button>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#FFECB3">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                android:src="@drawable/star"/>
+            <Button
+                android:text="STAR SPORTS"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:paddingLeft="16dp"
+                android:paddingTop="16dp"
+                android:textSize="20sp"
+                android:textColor="#424242"
+                android:onClick="star">
+            </Button>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#FFECB3">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                android:src="@drawable/coke"/>
+            <Button
+                android:text="COKE STUDIO"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:paddingLeft="16dp"
+                android:paddingTop="16dp"
+                android:textSize="20sp"
+                android:textColor="#424242"
+                android:onClick="coke">
+            </Button>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#FFECB3">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                android:src="@drawable/did"/>
+            <Button
+                android:text="DANCE INDIA DANCE"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:paddingLeft="16dp"
+                android:paddingTop="16dp"
+                android:textSize="20sp"
+                android:textColor="#424242"
+                android:onClick="did">
+            </Button>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#FFECB3">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                android:src="@drawable/sandeep"/>
+            <Button
+                android:text="SANDEEP MAHESHWARI"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:paddingLeft="16dp"
+                android:paddingTop="16dp"
+                android:textSize="20sp"
+                android:textColor="#424242"
+                android:onClick="sandeep">
+            </Button>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#FFECB3">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                android:src="@drawable/sanjeev"/>
+            <Button
+                android:text="SANJEEV KAPOOR"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:paddingLeft="16dp"
+                android:paddingTop="16dp"
+                android:textSize="20sp"
+                android:textColor="#424242"
+                android:onClick="sanjeev">
+            </Button>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#FFECB3">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                android:src="@drawable/tseries"/>
+            <Button
+                android:text="T SERIES"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:paddingLeft="16dp"
+                android:paddingTop="16dp"
+                android:textSize="20sp"
+                android:textColor="#424242"
+                android:onClick="tseries">
+            </Button>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#FFECB3">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                android:src="@drawable/tvf"/>
+            <Button
+                android:text="THE VIRAL FEVER"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:paddingLeft="16dp"
+                android:paddingTop="16dp"
+                android:textSize="20sp"
+                android:textColor="#424242"
+                android:onClick="tvf">
+            </Button>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#FFECB3">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                android:src="@drawable/nisha1"/>
+            <Button
+                android:text="NISHA MADHULIKA"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:paddingLeft="16dp"
+                android:paddingTop="16dp"
+                android:textSize="20sp"
+                android:textColor="#424242"
+                android:onClick="nisha">
+            </Button>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

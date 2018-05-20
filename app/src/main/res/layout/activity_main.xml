@@ -1,0 +1,123 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFECB3">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFECD3">
+
+
+        <TextView
+            android:text="LOGIN FORM"
+            android:fontFamily="sans-serif-smallcaps"
+            android:background="#0100FF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp"
+            android:textSize="20sp"
+            android:textAlignment="center">
+
+        </TextView>
+
+        <TextView
+            android:text=""
+            android:background="#FFECD3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp"
+            android:textSize="20sp"
+            android:textAlignment="center">
+
+        </TextView>
+
+
+        <TextView
+            android:text="USERNAME"
+            android:background="#76FF03"
+            android:fontFamily="serif-monospace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp"
+            android:textSize="20sp"
+            android:textAlignment="center">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/user_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingBottom="16dp"
+            android:hint="Username" />
+
+
+        <TextView
+            android:text="PASSWORD"
+            android:background="#76FF03"
+            android:fontFamily="serif-monospace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp"
+            android:textSize="20sp"
+            android:textAlignment="center">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/password"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingBottom="16dp"
+            android:hint="Password" />
+
+        <Button
+            android:id="@+id/log_in"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="login"
+            android:paddingLeft="16dp"
+            android:text="LOGIN"
+            android:textSize="15sp"></Button>
+
+
+        <TextView
+            android:text=""
+            android:background="#FFECD3"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:paddingLeft="16dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp"
+            android:textSize="20sp"
+            android:textAlignment="center">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/sign_up"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="signup"
+            android:paddingLeft="16dp"
+            android:text="SIGN UP"
+            android:textSize="15sp"></Button>
+
+    </LinearLayout>
+
+</ScrollView>
